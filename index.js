@@ -3,7 +3,7 @@ function takeANumber(katzDeli, name){
   return `Welcome, ${name}. You are number ` + katzDeli.length + ` in line.`;
 }
 var customer = 0;
-function takeANumber2(customer){
+function takeANumber2(){
   
   customer++;
 
