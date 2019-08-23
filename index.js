@@ -3,6 +3,20 @@ function takeANumber(katzDeli, name){
   return `Welcome, ${name}. You are number ` + katzDeli.length + ` in line.`;
 }
 
+function takeANumber2(customer){
+  customer = 0;
+  customer++;
+
+  
+  console.log(`Well done you are customer number ${customer}`);
+}
+
+takeANumber2();
+takeANumber2();
+takeANumber2();
+
+
+
 
 function nowServing(katzDeliLine){
   if(katzDeliLine.length === 0){
