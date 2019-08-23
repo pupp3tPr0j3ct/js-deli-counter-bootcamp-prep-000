@@ -4,7 +4,7 @@ function takeANumber(katzDeli, name){
 }
 
 function takeANumber2(customer){
-  customer = 0;
+  
   customer++;
 
   
